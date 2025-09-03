@@ -7,4 +7,4 @@ function isPalindrome(inputString) {
 }
 
 let inputString = "madam";
-consol.log(isPalindrome(inputString));
+console.log(isPalindrome(inputString));

@@ -2,7 +2,8 @@
 mydict = {
     "brand":"Ford",
     "Model":"Mustang",
-    "year": "1998"
+    "year": 1998,
+    "exist": True
 }
 # print(mydict)
 # type casting
@@ -12,4 +13,10 @@ mydict = {
 x = mydict.keys()
 y = mydict.values()
 z = mydict.items()
-print(z)
+# Change value
+mydict["year"] = 2021
+mydict.update({"year" : 2025})
+
+mydict["color"] = "red"
+print(mydict)
+

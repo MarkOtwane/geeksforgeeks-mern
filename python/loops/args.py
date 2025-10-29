@@ -30,7 +30,15 @@
 # funt("Mark", "Steve", "Joe", "Moraa")
 
 # kwargs
-def function(child3, child8, child5, child7, child1):
-    print("The cutest child among all is " + child1)
+# def function(child3, child8, child5, child7, child1):
+#     print("The cutest child among all is " + child1)
 
-function("Mark", "Steve", "Joe", "Ken","Moraa")
+# function("Mark", "Steve", "Joe", "Ken","Moraa")
+
+# Arbitrary keyword arguments **kwargs
+
+
+def my_func(**kids):
+    print("His height is the smallest among all " + kids["last_name"])
+
+my_func(fname= 'Abs', last_name = 'XYZ')

@@ -10,3 +10,5 @@
 # deactivate
 # django-admin startproject firstproject
 # python manage.py runserver
+# stop server ctrl + c
+#django-admin startproject secondproject

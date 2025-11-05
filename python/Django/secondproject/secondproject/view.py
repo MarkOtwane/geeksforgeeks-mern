@@ -4,10 +4,12 @@ from django.http import HttpResponse
 
 def index(request):
     return HttpResponse(
-        '<a href="www.google.com">Google</a><br>'
-        '<a href="www.facebook.com">Facebook</a><br>'
-        '<a href="www.youtube.com">Youtube</a><br>'
-        '<a href="www.google.com">Google</a>'
+        '''<nav>
+        <a href="www.google.com">Google</a><br>
+        <a href="www.facebook.com">Facebook</a><br>
+        <a href="www.youtube.com">Youtube</a><br>
+        <a href="www.google.com">Google</a>
+        </nav>'''
     )
 
 def about(request):
